@@ -1,0 +1,24 @@
+# Исключаем виртуальное окружение
+venv/
+.venv/
+
+# Исключаем базу данных SQLite
+*.sqlite3
+
+# Исключаем временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Исключаем локальные настройки
+.env
+.local_settings.py
+
+# Исключаем IDE-файлы
+.vscode/
+.idea/
+
+# Исключаем статические файлы, собранные Django
+/staticfiles/
+/media/
