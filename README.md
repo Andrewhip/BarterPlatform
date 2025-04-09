@@ -133,8 +133,8 @@ python manage.py test
 
 
 
-```## Структура проекта
-BarterPlatform/
+## Структура проекта
+```BarterPlatform/
 ├── ads/ # Приложение для управления объявлениями и обменами
 │ ├── migrations/ # Миграции базы данных
 │ ├── templates/ # HTML-шаблоны
